@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --font-family-primary: "Nunito Sans", Arial, serif;
+  --font-family-secondary: "Roboto", Arial, sans-serif;
+  --colors-neutral-200: #d9d9d9;
+  --colors-neutral-300: #9a9a9a;
+  --colors-neutral-400: #7d7d7d;
+  --colors-neutral-500: #5b5b5b;
+  --colors-neutral-800: #272727;
+  --colors-blue-500: #4e87f8;
+  --colors-blue-600: #3f51b5;
+  --colors-red-500: #f24e1e;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+
+  font-family: var(--font-family-primary);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--colors-neutral-800);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: var(--font-family-primary);
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--colors-neutral-500);
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.9em; /* font-size: 30px; */
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+h2 {
+  font-family: var(--font-family-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: var(--colors-neutral-800);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
