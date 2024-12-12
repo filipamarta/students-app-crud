@@ -32,3 +32,9 @@
     width: 50%;
   }
 }
+
+/* to fix the isse of having just one card in the page and it occupies 100% */
+.container > div:only-child {
+  max-width: 424px;
+  margin: 0 auto;
+}

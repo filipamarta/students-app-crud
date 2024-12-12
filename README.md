@@ -1,6 +1,6 @@
 # Students App
 
-I'm Filipa Marta, and I developed a responsive web application for an interview challenge, enabling the management of students and classes with features to add, delete, and edit entries. The app is built with React, TypeScript, and Vite, styled using Material UI, and CSS Modules for scoped styling. I utilized Formik for form handling and Yup for validation, and configured ESLint to ensure code quality and consistency.
+I'm Filipa Marta, and I developed a responsive web application for an interview challenge, enabling the management of students and classes with features to add, delete, and edit entries. The app is built with React, TypeScript, and Vite, styled using Material UI, and CSS Modules for scoped styling. I utilized Formik for form handling and Yup for validation, and configured ESLint to ensure code quality and consistency. Data is stored locally using localStorage, ensuring persistence across sessions.
 
 I organized the code into 4 folders:
 
