@@ -12,7 +12,7 @@ I organized the code into 4 folders:
 I used the "theme" given by Material UI but it's not totally optimized (due to time constraints in learning more about it).
 I use CssBaseline from Material UI in main.tsx to reset browser styles and created modals using createPortal.
 
-![App Image](https://github.com/filipamarta/students-app-crud/blob/main/src/assets/printscreen.png)
+![App Image](https://github.com/filipamarta/students-app-crud/blob/main/src/assets/edit-student.png)
 
 ### `npm run dev`
 
