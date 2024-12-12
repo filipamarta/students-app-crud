@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: clamp(30px, 5vw, 37px);
+  column-gap: clamp(30px, 5vw, 45px);
+  margin-top: 34px;
+}
+
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+  }
+
+  .emptyContainer {
+    width: 50%;
+  }
+}

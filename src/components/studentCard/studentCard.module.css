@@ -1,0 +1,70 @@
+.card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 34px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  column-gap: clamp(16px, 1.5vw, 30px);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  flex-wrap: nowrap;
+}
+
+.fullname,
+.email,
+.id {
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  line-height: 1.5;
+}
+
+.fullname {
+  font-weight: 700;
+  color: var(--colors-neutral-800);
+}
+
+.email {
+  font-weight: 300;
+  color: var(--colors-neutral-800);
+}
+
+.id {
+  font-weight: 200;
+  color: var(--colors-neutral-300);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.actions button {
+  padding: 0;
+}
+
+.actions button svg {
+  width: auto;
+  height: 27px;
+}
+
+.image {
+  display: block;
+  width: 90px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: var(--colors-neutral-200);
+  border-radius: 100%;
+  aspect-ratio: 1 / 1;
+  flex: 1;
+}

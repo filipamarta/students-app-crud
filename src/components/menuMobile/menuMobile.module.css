@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.list li {
+  width: 100%;
+  border-bottom: 1px solid var(--colors-neutral-200);
+  text-align: center;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li button {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
