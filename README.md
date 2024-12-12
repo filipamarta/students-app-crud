@@ -14,6 +14,8 @@ I use CssBaseline from Material UI in main.tsx to reset browser styles and creat
 
 ![App Image](https://github.com/filipamarta/students-app-crud/blob/main/src/assets/edit-student.png)
 
+the app is deployed in Netlify: [students-classes-app.netlify.app/](https://students-classes-app.netlify.app/)
+
 ### `npm run dev`
 
 Runs the app in the development mode.\
